@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "@huggingface/inference": "^2.7.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "netlify-cli": "^12.7.2",
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^2.7.0"
