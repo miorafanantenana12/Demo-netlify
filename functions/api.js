@@ -44,6 +44,10 @@ router.get('/demo', (req, res) => {
       email: 'lily@gmail.com',
     },
   ]);
+
+  router.get('*', (req, res) => {
+    res.status(404).send('Endpoint does not exist');
+  });
 });
 
 app.use('/.netlify/functions/api', router);
